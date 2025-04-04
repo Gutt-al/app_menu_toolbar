@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuPrincipalActivity">
-
+<com.google.android.material.bottomappbar.BottomAppBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>
