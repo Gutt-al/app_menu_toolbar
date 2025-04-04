@@ -11,10 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idtopbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/menu_topbar"
-            />
+            app:navigationIcon="@drawable/baseline_arrow_circle_left"
+            app:title="Qrcode Aluno"
+            app:menu="@menu/menu_topbar"/>
 
 
 
